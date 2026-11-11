@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opendexrl"
+version = "0.1.0"
+description = "OpenDexRL: Reinforcement Fine-tuning for High-DoF Dexterous Manipulation"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+# Runtime dependencies come from the third_party submodules and are installed by
+# scripts/install.sh, which needs version overrides that package metadata cannot express.
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["opendexrl"]

@@ -1,0 +1,6 @@
+[submodule "third_party/dsrl_pi0"]
+	path = third_party/dsrl_pi0
+	url = https://github.com/nakamotoo/dsrl_pi0.git
+[submodule "third_party/dexjoco"]
+	path = third_party/dexjoco
+	url = https://github.com/brave-eai/dexjoco.git
